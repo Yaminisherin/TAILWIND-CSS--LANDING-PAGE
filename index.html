@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: { 
+            extend: {
+              colors: {
+              
+                "bookmark-purple": "#5267DF",
+                "bookmark-red": "#FA5959",
+                "bookmark-blue": "#242A45",
+                "bookmark-grey": "#9194A2",
+                "font-grey":"#4B4B4B",
+                "bookmark-white": "#f7f7f7",
+                "custom-blue": "#083F9B",
+                "custom-purple":"#7F56D9",
+                "font-gblue":"#324361",
+                "font-cgrey":"#4E596B",
+                "font-purple":"#E1CBFE",
+                "color-grey":"#7E7EAA",
+                "font-blue":"#0A033C",
+              },
+            },
+            fontFamily: {
+              Righteous: ["Righteous, sans-serif"],
+            Saira: ["Saira Condensed, sans-serif"],
+            Rowdies: ["Rowdies, sans-serif"],
+            Inter: ["Inter, sans-serif"],
+            },
+            container: {
+              center: true,
+              padding: "1rem",
+              screens: {
+                lg: "1124px",
+                xl: "1124px",
+                "2xl": "1124px",
+              },
+            },
+          },
+        };
+      </script>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,700&family=Righteous&family=Rowdies&family=Saira+Condensed:wght@500;600&display=swap"
+        rel="stylesheet"
+      />
+    <title>Landing page</title>
+</head>
+<body class="font-Righteous">
+    <!-- <h1 class="text-3xl bg-purple-600 font-bold underline">
+        Hello world!
+      </h1> -->
+    <nav>
+      <header>
+        <div>
+          <img src="assets/Askmeidentity 2.png" alt="logo">
+        </div>
+         <ul class="hidden sm:flex flex-1 justify-end items-center gap-16  text-sm text-black absolute inset-x-0 top-10 h-4  lg:mr-14 -mt-2"  >
+             <li class="text-2xl text-black cursor:pointer">Home</li>
+             <li  class="text-2xl text-black cursor:pointer">About</li>
+             <li  class="text-2xl text-black cursor:pointer">Courses</li>
+             <li  class="text-2xl text-black cursor:pointer">Contact</li>
+             <img src="assets/Group 2.png" alt="">
+             <li  class="text-2xl text-font-grey underline font-Saira">Login</li>
+             <button class="bg-gradient-to-r from-blue-800 to bg-purple-600 mr-20 w-24 h-10 rounded">
+              <li class="text-white font-Saira text-2xl">Signup</li></button>
+         </ul>
+        <div class="lg:bg-gradient-to-r from-indigo-600 from-30% to-violet-500 to-70%  text-white sm:bg-indigo-600 ">
+        <p><br><br>
+       <span class=" pl-32 hover:underline text-white "> Successful coaches are visionaries<br><br></span>
+        <p class="text-4xl pl-32 text-white ">
+          <b>Good <span class=" text-blue-600 hover:underline">coaching </span>is <br>good teaching &<br> nothing else.<br><br></b>
+       <br> 
+       <center>
+        <div class="pl-80">
+          <center class="absolute top-8 right-14 h-96 w-64  mix-blend-multiply">
+            
+            <img src="assets/brunette-woman-hugging-laptop 1.png" alt="woman-image" class=""></center>
+         </div>
+       </center> 
+       <center>
+        <div class="pr-36 absolute inset-x-0 top-48 h-16 sm:pr-28 ">
+          <img src="assets/group1.svg" alt="">
+        </div>
+       </center>
+       <center><p class="lg:ps-36 absolute inset-x-0 top-48 h-16 sm:ps-40"> 
+       <span class="pr-40">Shyam</span><br>
+        In a coaching role, you ask the<br>&nbsp; questions and rely more on your<br> 
+        &nbsp;&nbsp; staff, who become the experts, to<br><span class="pr-12"> provide the information.</span><br>
+       <span class="text-blue-600 pr-48"> 4.9</span>
+        </p></center>
+        </p>
+       </p>
+      <div  class="pl-28 text-white">
+        <button class="border border-white border-solid w-36 rounded h-10 ">View Courses</button>
+     
+         <span class="pl-10 cursor-pointer text-white">
+        Get Free Consultation<br><br><br><br>
+        <img src="assets/learn-hdr.png" alt=""><br><br><br><br><br><br><br>
+      </span>
+      <div class=" pr-11  bg-gradient-to-r from-indigo-600 from-30% to-violet-500 to-70% ">
+      <input
+      class="focus:outline-none text-grey w-4/12 h-16 p-3 rounded-md relative"
+      type="text"
+      placeholder="What do you want to learn today?"
+    />
+    <button
+      class="absolute mt-1 pt-3  pb-10 p-2 text-white bg-gradient-to-r from-indigo-600 from-30% to-violet-500 to-70% rounded-md -ml-28 w-24 h-2  pl-10  text-center"
+      type="submit" 
+    >
+
+      <img src="assets/white search.svg" alt="white-search" class=" pr-1"> Search 
+    </button>
+  </div>
+      <div>
+        <center class="ps-28 absolute inset-x-5 bottom-36 h-80 ">
+          <div class="ps-28 absolute inset-x-0 bottom-20 h-19">
+            <img src="assets/curve1.svg" alt="">
+          </div>
+         <div class="ps-28 absolute inset-x-0 bottom-20 h-19">
+          <img src="assets/curve2.svg" alt="">
+         </div>
+          <div class="ps-28 absolute inset-x-0 bottom-20 h-19">
+            <img src="assets/curve3.svg" alt="">
+          </div>
+        </center>
+      </div>
+    </div>
+    </div>
+    <div class="bg-gradient-to-br from-blue-800 bg-purple-600 border-spacing-3 h-32 pb-10">
+      <ul class="flex flex-wrap justify-center space-x-28 pt-9   sm:justify-center items-center  ">
+        <li><img src="assets/spotify.svg" alt=""></li><br>
+        <li><img src="assets/amazon.svg" alt=""></li>
+        <li><img src="assets/spotify.svg" alt=""></li>
+        <li><img src="assets/cisco.svg" alt=""></li>
+        <li><img src="assets/logitech.svg" alt=""></li>
+        <li><img src="assets/amazon.svg" alt=""></li>
+      </ul>
+    </div>
+    </header>
+  </nav><br><br><br>
+  <!-- nav&header part finished -->
+<section1 >
+  <div  class="bg-gradient-to-br from-white bg-blue-200 font-Saira font-semibold sm:">
+    <div class="pl-64 ">
+      <img src="assets/round.svg" alt="">
+    </div>
+    <div class="pt-20">
+      <center>
+        <p class="">
+          <span class="text-3xl font-Rowdies">Featured </span><span class="text-blue-600 text-3xl font-Rowdies">Course</span><br><br>
+          <span class="font-Righteous font-regular ">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</span><br><br>
+        </p>
+      </center>
+    </div><br><br><br>
+    <div class="flex flex-1 font-Saira ">
+      <card1 class="pl-20 pr-20 pb-20">
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue">
+          <div class="flex flex-col w-80 h-96">
+            <img src="assets/map.png" alt="map image" class="w-full  object-cover rounded">
+          <span class="text-font-cgrey font-medium">&nbsp;&nbsp;1,957 Students &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  01h 59m</span><br>
+          <p>
+            <span class="text-2xl font-semibold">&nbsp;&nbsp;Motion Graphics: Create a Nice<br>
+              &nbsp;&nbsp;Typography Animation</span><span class="">
+                <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+            </span>
+          </p>
+         
+          </div>
+        </div>
+      </card1>
+      <!-- card1 ended -->
+       <card2 class="pl-20 pr-20 pb-20">
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue font-Saira">
+          <div class="flex flex-col w-80 h-96">
+            <img src="assets/puzzle.png" alt="puzzle image" class="w-full  object-cover rounded">
+          <span  class="text-font-cgrey font-medium">&nbsp;&nbsp;9,575 Students&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  01h 59m</span><br>
+          <p>
+            <span class="text-2xl font-semibold">&nbsp;&nbsp;
+            Advance PHP knowledge with JS to
+            &nbsp;&nbsp;&nbsp;make smart web</span><span class="">
+              <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+          </span>
+          </p>
+         
+          </div>
+        </div>
+       </card2>
+       <!-- card2 ended -->
+       <card3 class="pl-20 pr-20 pb-20">
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue font-Saira ">
+          <div class="flex flex-col w-80 h-96 ">
+            <img src="assets/rocket-launch-laptop-flying-rocket-icon-business-startup-project-concept 1.png" alt="rocket img" class="w-full  object-cover rounded">
+          <span class="text-font-cgrey font-medium">&nbsp;&nbsp;2957 Students  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;02h 49m</span><br>
+          <p >
+            <span class="text-2xl font-semibold">&nbsp;&nbsp;
+            Education Software and PHP and JS
+            &nbsp;&nbsp;&nbsp;System Script</span><span class="">
+              <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+          </span>
+          </p>
+          </div>
+        </div>
+       </card3>
+    <!-- card3 ended -->
+    </div>
+     <div class="flex flex-1">
+      <card4 class="pl-20 pr-20 pb-20">
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue font-Saira">
+          <div class="flex flex-col w-80 h-96">
+            <img src="assets/coin-stack.png" alt="coin image" class="w-full  object-cover rounded">
+          <span class="text-font-cgrey font-medium">&nbsp;&nbsp;5,457 Students  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01h 49m</span><br>
+          <p>
+            <span class="text-2xl font-semibold">&nbsp;&nbsp;
+            The Complete Financial Analyst
+            &nbsp;&nbsp;&nbsp;Training & Investing</span><span class="">
+              <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+          </span>
+          </p>
+          </div>
+        </div>
+       </card4>
+       <!-- card4 ended  -->
+        <card5 class="pl-20 pr-20 pb-20">
+          <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue font-Saira"> 
+            <div class="flex flex-col w-80 h-96">
+              <img src="assets/aeroplane.png" alt="aeroplane" class="w-full  object-cover rounded">
+            <span class="text-font-cgrey font-medium">&nbsp;&nbsp;595 Students  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01h 49m</span><br>
+            <p>
+              <span class="text-2xl font-semibold">&nbsp;&nbsp;
+              Marketing 2023: Complete Guide To
+              &nbsp;&nbsp;&nbsp;Instagram Growth</span><span class="">
+                <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+            </span>
+            </p>
+            </div>
+          </div>
+        </card5>
+        <!-- card5 ended -->
+         <card6 class="pl-20 pr-20 pb-20">
+          <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white text-font-gblue font-Saira">
+            <div class="flex flex-col w-80 h-96">
+              <img src="assets/bank.png" alt="bank img" class="w-full  object-cover rounded">
+            <span class="text-font-cgrey font-medium">&nbsp;&nbsp;458 Students &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;03h 00m</span><br>
+            <p>
+              <span class="text-2xl font-semibold">&nbsp;&nbsp;
+              Learn 3D Modelling and Design
+              for &nbsp;&nbsp;&nbsp;Beginners</span><span class="">
+                <img src="assets/cart_alt_icon .svg" alt="cart" class="  pl-64 pt-5">&nbsp;&nbsp;Rs.499  
+            </span>
+            </p>
+            </div>
+          </div>
+         </card6>
+         <!-- card6 ended -->
+     </div>
+     <center>
+      <button class="bg-gradient-to-r from-indigo-600 from-30% to-violet-500 to-70% mr-20 w-56 h-12 rounded text-white font-Righteous font-regular text-1xl">
+        Explore Courses</button>
+     </center>
+  </section1><br><br><br>
+  </div><br> <br>
+<section2 class="sm:grid-flow-col" >
+  <div class="bg-gradient-to-l from-indigo-600 from-30% to-indigo-400 to-70%  text-white font-Righteous -mt-12 -mb-20 ">
+    <div class="text-center text-white ml-8 ">
+      <h class="text-4xl tracking-normal"><br><br>
+        Why <span class="text-blue-700">learn </span>with our courses?
+      </h>
+      <p class=" text-center font-Saira tracking-wider  ">
+        <br>We are providing the best courses and top classes.And <br>extradinery
+        placement training.....
+      </p>
+    </div>
+    <div class="pt-32 rounded ">
+      
+        <img src="assets/Rectangle-1.svg" alt="curve" class="-mt-60 -translate-y-16 w-36   absolute"/>
+      
+      
+        <img src="assets/Rectangle-2.svg" alt="curve" class="-mt-60   -translate-y-8 w-28 absolute"/>
+      
+        <img src="assets/Rectangle-3.svg" alt="curve" class="w-24   -mt-52   -translate-y-12 absolute"/>
+      
+    </div>
+   <div class="flex flex-1 gap-72">
+    <div class="pl-56">
+      <img src="assets/learn.svg" alt="icon" class="w-14">
+      <div>
+      
+       
+      </div><br>
+      <p class="font-normal ">01. Learn<br><br>
+        <span class="pl-1 ">Learn continually. There is always<br>
+          “one more thing”to learn.
+        </span>
+      </p><br><br>
+    </div>
+    <div> <center class="-space-x-36">
+      <img src="assets/Line 15.svg" alt="line" class=" w-2">
+     </center></div>
+    <div class="pr-5">
+      <img src="assets/graduate.svg" alt="icon" class="w-14"><br>
+      <div>
+      
+      </div>
+      
+      <p>
+        02. Graduate <br><br><span>Be bold,be courageous,<br>
+          be your best.</span>
+      </p>
+    </div>
+    <div> <center class="-space-x-36">
+      <img src="assets/Line 15.svg" alt="line" class="w-2 s">
+     </center></div>
+    <div class="pr-52">
+      <div class="pl-10 ">
+        <img src="assets/team.svg" alt="icon" class="w-14"><br>
+      </div>
+      <p>03. Work <br><br><span>Great companies are built in
+        the office,with hard work put<br>
+        in by team.</span></p><br><br>
+    </div>
+   </div>
+  </div>
+</section2><br><br><br><br>
+<!-- section2 ended  -->
+<section3>
+  <div class=" font-Righteous lg:bg-gradient-to-b from-indigo-50 from-30% to-blue-200 to-70% pt-10  sm:bg-blue-200 ">
+    <center class="text-5xl ">
+      <h> Top <span class="text-blue-800"> Categories</span><br><span class="text-font-cgrey text-2xl">100+ unique online course list designs</span></h><br><br>
+     </center>
+    <div class="flex flex-1  pt-10 -space-x-24 pl-32">
+     <card1 class="pl-10 pr-20 pb-0">
+       <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+         <div class="flex flex-col w-60 h-96">
+           <center class="pr-36 pt-10 pl-10">
+                 <img src="assets/digital.svg" alt=""><br>
+                 <p class="text-font-gblue">Digtal
+                   Marketing<br><br><span>25 Courses</span></p>
+           </center>
+           </div></div>
+   </card1>
+   <!-- card1 ended -->
+   <card2 class="pl-20 pr-20 pb-0">
+     <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+       <div class="flex flex-col w-60 h-96">
+         <center class="pr-36 pt-10 pl-10" >
+               <img src="assets/web-dev.svg" alt=""><br>
+               <p class="text-font-gblue">web 
+                 development<br><br>16 Courses</p>
+         </center>
+         </div></div>
+   </card2>
+   <!-- card2 ended -->
+   <card3 class="pl-20 pr-20 pb-0">
+     <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+       <div class="flex flex-col w-60 h-96">
+         <center class="pr-36 pt-10 pl-10">
+               <img src="assets/art.svg" alt=""><br>
+               <p class="text-font-gblue">Art &
+                Humanities<br><br>76 Courses</p>
+         </center>
+         </div></div>
+   </card3>
+   <!-- card3 ended -->
+   <card4 class="pl-20 pr-20 pb-0">
+     <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+       <div class="flex flex-col w-60 h-96">
+         <center class="pr-36 pt-10 pl-10">
+               <img src="assets/pers-dev.svg" alt=""><br>
+               <p class="text-font-gblue">Personal
+                Development<br><br>22 Courses</p>
+         </center>
+         </div></div>
+   </card4>
+   <!-- card4 ended -->
+   <card5 class="pl-20 pr-20 pb-0">
+     <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+       <div class="flex flex-col w-60 h-96">
+         <center class="pr-36 pt-10 pl-10">
+               <img src="assets/IT.svg" alt=""><br>
+               <p class="text-font-gblue">IT and
+                Software<br><br>110 Courses</p>
+         </center>
+         </div></div>
+   </card5>
+   <!-- card5 ended -->
+   <card6 class="pl-20 pr-20 pb-0">
+     <div class="flex flex-col rounded-md shadow-md lg:mb-16 bg-white w-44 h-64"> 
+       <div class="flex flex-col w-60 h-96">
+         <center class="pr-36 pt-10 pl-10 ">
+               <img src="assets/graphics.svg" alt="icon" class=""><br>
+               <p class="text-font-gblue">Graphic
+                Design<br><br>85 Courses</p>
+         </center>
+         </div></div>
+   </card6>
+   <!-- card6 ended -->
+     </div>
+  </div>
+</section3><br><br><br>
+<section4>
+  <center>
+    <div class="flex flex-col  shadow-md lg:mb-16 bg-gradient-to-r from-indigo-300 via-purple-700 to-fuchsia-600 rounded-lg
+     w-3/4 h-96 md:ml-36 md:mt-20">
+     
+      <p class="text-white text-3xl pt-10 ">
+        <b>Subscribe For Get Update<br>
+          Every New Courses</b><br>
+      </p><br>
+      <span class="text-font-purple">20k+ students daily learn with Eduvi. Subscribe for new courses.</span><br><br>
+      <div> <img src="assets/subscribe.png" alt=""></div>
+      <img src="assets/Ellipse-3.png" alt="" class="place items-start w-20 pl-5">
+      <img src="assets/Ellipse-2.png" alt="" class="relative left-24 bottom-56 h-24 w-24 pl-10 pt-10">
+      <img src="assets/Ellipse-1.png" alt="" class=" relative left-10 bottom-96 h-24 w-20 pl-5">
+  </div>
+  <div>
+    <img src="assets/Ellipse 4.png" alt="" class=" relative bottom-96 left-1/3 h-16 w-20 pl-5">
+      <img src="assets/Ellipse 5.png" alt="" class="relative left-1/4  -right-10 bottom-96 h-24 w-24 pl-10 pt-10">
+      <img src="assets/Ellipse 6.png" alt="" class= "relative bottom-80 left-1/3  h-16 w-20   pl-5">
+      <div>
+        <img src="assets/Polygon-r.png" alt="" class="relative bottom-44 left-1/2 h-18 ">
+        <img src="assets/Polygon-l.png" alt="" class="relative  right-1/3 bottom-96 h-18 pb-20 pl-2">
+      </div> 
+      
+ 
+ </center>
+</section4>
+<!-- section4 ended -->
+ <section5>
+  <center>
+    <div class="">
+       <!-- <img src="assets/play-button.png" alt="" class=""></div> -->
+    <div class="w-1/2"><img src="assets/Rectangle 8691.png" alt="">
+      <img src="assets/Group 512857.png" alt="play icon" class="Lg:translate-x-50 -translate-y-72  w-32 sm:-translate-y-56">
+    </div>
+    <div class="">
+      <img src="assets/banner_right.png.png" alt="" class="lg:translate-x-96 -translate-y-60 ml-64 w-52 sm:translate-x-32 ">
+    </div>
+  </center><br><br><br>
+ <br><br>
+ </section5>
+ <!-- body5 ended -->
+<section6 class="font-Righteous">
+  <div class=" lg:bg-gradient-to-b from-white bg-blue-200 pt-10 sm:bg-sky-200 ">
+    <img src="assets/Ellipse 1217.png" alt="semi circle" class=" w-20 absolute  ">
+    <center class=" text-font-cgrey">
+        <p><span class="text-blue-800 text-2xl">Testimonials</span><br><br>What our student say about us</p><br><br>
+    </center>
+   <div class="pl-32 flex flex-1   gap-3 text-color-grey">
+    <div class="flex flex-col   shadow-md lg:mb-16 w-1/4 h-44  bg-white mt-12 ml-20 translate-x-10">
+      <img src="assets/th (1) 4.png" alt="" class="lg:w-10 relative left-44 bottom-5 sm: size-9 h-12">
+      <p class="pl-2 justify-center ml-10 text-xs mr-10 mb-4">Such an amazing traniner and easily understand the entire
+        syllabus, and the guidence will be super and good to the way <br>
+        of explaning.<img src="assets/rating.svg" alt="" class="lg:mt-9 sm:mt-0.5 w-20  "></p>  
+    </div>
+    <div class="flex flex-col  shadow-md lg:mb-16 w-1/4 h-44 left-20 bg-white ">
+      <img src="assets/th (1) 4.png" alt="" class="w-10 relative left-40 bottom-5">
+      <p class="pl-2 justify-center ml-10 text-xs mr-10 mb-4">Such an amazing traniner and easily understand the entire
+        syllabus, and the guidence will be super and good to the way <br>
+        of explaning.<img src="assets/rating.svg" alt="" class="lg:mt-9 sm:mt-0.5 w-20  "></p> 
+    </div>
+    <div class="flex flex-col  shadow-md lg:mb-16 w-1/4 h-44 bg-white translate-y-12 -translate-x-10  ">
+      <img src="assets/th (1) 4.png" alt="" class="w-10 relative left-40 bottom-5">
+      <p class="pl-2 justify-center ml-10 text-xs mr-10 mb-4">Such an amazing traniner and easily understand the entire
+        syllabus, and the guidence will be super and good to the way <br>
+        of explaning.<img src="assets/rating.svg" alt="" class="lg:mt-9 sm:mt-0.5 w-20  "></p>
+   </div>
+    <div class="lg:relative top-64 mb-20 ">
+      <img src="assets/left-Arrow.png" alt="" >
+      <div><img src="assets/right- Arrow (1).png" alt="" class="relative bottom-10 left-10"></div>
+    </div>
+  </div><br><br>
+</section6>
+<!-- section6 ended -->
+<footer>
+<div class="lg:bg-gradient-to-t from-violet-500 bg-blue-600 pt-10 font-Righteous text-font-blue">
+  
+  <div class="flex flex-1 pl-12 gap-32 pb-52 ml-6">
+    <div>
+      <p><span><b class="text-2xl ">  Connect</b></span></p><br><br>
+     <div class="mix-blend-multiply">
+      <img src="assets/Askmeidentity 2.png" alt="" class="-ml-10">
+     </div>
+      <p>Sri Jagannath Nivas,8-1-164/345/A/1,<br>
+        Pragati Colony, Mailardevpally, Nawab<br>
+        Saheb Kunta, Hyd, 500005</p>
+    </div>
+    
+      <div class="lg:ml-16 sm:flex fl ">
+        <ul>
+          <li class="text-3xl"><b>Classes</b></li><br>
+          <li ><b>Classroom courses</b></li><br>
+          <li ><b>Virtual classroom courses</b></li><br>
+          <li ><b>E-learning courses</b></li><br>
+          <li><b>Video Courses</b></li><br>
+          <li><b>Offline Courses</b></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="text-3xl"><b>Community</b></li><br>
+          <li><b>Learners</b></li><br>
+          <li ><b>Parteners</b></li><br>
+          <li ><b>Developers</b></li><br>
+          <li ><b>Transactions</b></li><br>
+          <li ><b>Blog</b></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li class="text-3xl"><b>Quick links</b></li><br>
+          <li><b>  Home</b></li><br>
+          <li><b>Professional Education</b></li><br>
+          <li><b> Courses</b></li><br>
+          <li> <b>Admissions</b></li><br>
+          <li><b>Testimonial</b></li><br>
+          <li> <b>Programs</b></li>
+        </ul>
+      </div>
+      <div>
+       <ul>
+        <li class="text-3xl"> <b>More</b></li><br>
+        <li><b>Press</b></li><br>
+        <li><b>Investors</b></li><br>
+        <li><b>Terms</b></li><br>
+        <li><b>Privacy</b></li><br>
+        <li><b>Help</b></li><br>
+        <li><b>Contact</b></li>
+       </ul>
+    </div>
+  </div>
+    
+  </div>
+</div>
+<div class="bg-gradient-to-t from-violet-500 bg-blue-600 flex flex-1 gap-x-32 py-9 pl-96">
+  <img
+  src="/assets/Instagram.png"
+  alt="social"
+  class="rounded-full bg-white "
+/>
+<img
+  src="/assets/WhatsApp.png"
+  alt="social"
+  class="rounded-full bg-white"
+/>
+<img
+  src="/assets/Twitter.png"
+  alt="social"
+  class="rounded-full bg-white"
+/>
+<img
+  src="/assets/LinkedIn.png"
+  alt="social"
+  class="rounded-full bg-white"
+/>
+<img
+  src="/assets/YouTube.png"
+  alt="social"
+  class="rounded-full bg-white "
+/>
+</div>
+<div class="bg-blue-600 text-white font-Righteous">
+  <center>
+    &copy;Copyright @ 2023 askmeidentity. All Rights Reserved
+  </center>
+</div>
+</footer><br><br><br>
+</body>
+</html>
